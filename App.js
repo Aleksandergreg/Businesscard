@@ -23,7 +23,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.card}>
-        {/* Pressable Logo */}
         <Pressable onPress={openModal}>
           <Image
             style={styles.logo}
@@ -46,7 +45,7 @@ export default function App() {
         </Pressable>
       </View>
 
-      {/* Modal for Enlarged Image */}
+     
       <Modal
         visible={modalVisible}
         transparent
@@ -151,4 +150,4 @@ git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/Aleksandergreg/React-Native-Initial
 git push origin main
-*/ x$
+*/ 
