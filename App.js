@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  Modal,
-  Pressable,
-  Dimensions,
+import {View, Text, Image, StyleSheet, Modal, Pressable, Dimensions,
 } from 'react-native';
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
