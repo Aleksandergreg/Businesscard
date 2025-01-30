@@ -155,6 +155,7 @@ const styles = StyleSheet.create({
 /*
 git init
 git add .
+git commit -m "Initial commit"
 git remote add origin https://github.com/Aleksandergreg/React-Native-Initial
 git push origin main
 */ x$
